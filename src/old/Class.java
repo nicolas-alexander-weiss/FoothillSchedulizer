@@ -1,3 +1,5 @@
+package old;
+
 import java.util.ArrayList;
 
 public class Class {
@@ -13,7 +15,7 @@ public class Class {
      *
      * @param crn CRN Number
      * @param name e.g. CS1A
-     * @param classTime ArrayList of ClassTime
+     * @param classTime ArrayList of old.ClassTime
      */
     public Class(int crn, String name, ArrayList<ClassTime> classTime){
         this.crn = crn;
@@ -22,7 +24,7 @@ public class Class {
     }
 
     /*
-    public Class(String name, String id, String instructor, String[] classTimes){
+    public old.Class(String name, String id, String instructor, String[] classTimes){
         this.id = id;
         this.instructor = instructor;
 
@@ -64,7 +66,7 @@ public class Class {
     /**
      * Format:
      * //crn as int//
-     * //ClassName//
+     * //old.ClassName//
      * //classTime1.toString()//
      * ...
      * //classTimeN.toString()//

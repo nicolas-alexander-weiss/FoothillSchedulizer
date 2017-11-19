@@ -1,4 +1,4 @@
-import com.sun.deploy.util.StringUtils;
+package old;
 
 public class ClassTime {
 
@@ -9,7 +9,7 @@ public class ClassTime {
     private String room;
 
     /**
-     * Constructor for ClassTime
+     * Constructor for old.ClassTime
      * Format of time: dhhmmhhmm (day (Mon 0 - Sun 6)|(begin time)|(end time)
      * If online class, then all zero!!!!
      */
@@ -78,9 +78,9 @@ public class ClassTime {
     }
 
     /**
-     * Creates a ClassTime object form the given String.
+     * Creates a old.ClassTime object form the given String.
      * @param s  type + " " + time + " " + instructor + " " + room
-     * @return a ClassTime object
+     * @return a old.ClassTime object
      */
     public static ClassTime fromString(String s){
         String[] stringParts = s.split(";");

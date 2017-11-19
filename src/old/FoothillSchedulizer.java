@@ -1,3 +1,5 @@
+package old;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -15,7 +17,7 @@ public class FoothillSchedulizer {
         // get user input of classes needed
         String[] inputClasses = new String[numClass];
         for (int i = 0; i < numClass; i++) {
-            System.out.print("Class #" + (i+1) + ": ");
+            System.out.print("old.Class #" + (i+1) + ": ");
             inputClasses[i] = in.nextLine();
         }
 
@@ -42,14 +44,14 @@ public class FoothillSchedulizer {
         ClassName[] validClasses = new ClassName[validClassList.size()];
         validClasses = validClassList.toArray(validClasses);
 
-        // load all the valid input classes into 2D Class object
+        // load all the valid input classes into 2D old.Class object
         Class[][] classes = ClassLoader.loadClassesWithoutCheck(validClasses);
 
         // get schedule possibility
         ScheduleChecker scheduleChecker = new ScheduleChecker(classes);
         Schedule[] schedules = scheduleChecker.getPossibleSchedules();
 
-        System.out.print("\nSchedule for: ");
+        System.out.print("\nold.Schedule for: ");
         for (int i = 0; i < validClasses.length; i++) {
             if (i == validClasses.length - 1)
                 System.out.print(validClasses[i] + ".\n\n");

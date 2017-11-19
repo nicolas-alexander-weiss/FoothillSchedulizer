@@ -4,8 +4,8 @@ INFO FOR
 Site Logo
 About Us	Programs & Courses	Apply & Register	Costs & Financial Aid	Student Services	Student Life & Campus Resources	Sunnyvale Centersubpage flowers image
 Physics
-HomePhysicsClass Schedule
-Class SchedulePhysics (PHYS)Change active quarter:  Select
+HomePhysicsClass old.Schedule
+old.Class SchedulePhysics (PHYS)Change active quarter:  Select
 
 
 41 courses/sections being shown for Fall 2017 (Note: Results limited to 400)
@@ -23,19 +23,19 @@ Prerequisite: MATH 48C or higher placement on the placement test.
 20206
 TEXTS	PHYS-002A-01	Lecture	10:00 AM-11:50 AM	TTh	CHASE, ANNIE	4310
  	Laboratory	12:00 PM-02:50 PM	T	CHASE, ANNIE	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-01: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-01: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20308
 TEXTS	PHYS-002A-02	Lecture	10:00 AM-11:50 AM	TTh	CHASE, ANNIE	4310
  	Laboratory	12:00 PM-02:50 PM	Th	CHASE, ANNIE	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-02: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-02: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20207
 TEXTS	PHYS-002A-03	Lecture	12:00 PM-01:50 PM	MW	MARASCO, DAVID	4605
  	Laboratory	02:00 PM-04:50 PM	M	LAU, BOBBY	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-03: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-03: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20465
 TEXTS	PHYS-002A-04	Lecture	05:30 PM-07:20 PM	MW	LAU, BOBBY	4501
  	 	Laboratory	07:30 PM-10:20 PM	M	LAU, BOBBY	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-04: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-002A-04: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 PHYS 2AM :: GENERAL PHYSICS: CALCULUS SUPPLEMENT	1 Unit
 Application of calculus to physics topics and problems in mechanics.
 1 hour lecture. (12 hours total per quarter.)
@@ -43,7 +43,7 @@ Prerequisite: MATH 1A or 1AH.
 Corequisite: Completion of or concurrent enrollment in MATH 1B and PHYS 2A.
 20626
 TEXTS	• PHYS-02AM-01W	Lecture	TBA	TBA	MARASCO, DAVID	ONLINE
-Class runs from 09/25/2017 - 12/15/2017.
+old.Class runs from 09/25/2017 - 12/15/2017.
 PHYS 4A :: GENERAL PHYSICS (CALCULUS)	6 Units
 Mathematics-physics interrelationships, classical Newtonian mechanics.
 5 hours lecture, 3 hours laboratory. (96 hours total per quarter.)
@@ -53,26 +53,26 @@ Advisory: Students who have not taken physics in high school are strongly encour
 TEXTS	PHYS-004A-01	Lecture	10:00 AM-10:50 AM	F	CHASE, ANNIE	5601
  	Lecture	10:00 AM-11:50 AM	MW	CHASE, ANNIE	5601
  	Laboratory	12:00 PM-02:50 PM	M	YUEN, MAX	4714
-Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-01: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-01: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20686
 TEXTS	PHYS-004A-02	Lecture	10:00 AM-11:50 AM	MW	CHASE, ANNIE	5601
  	Lecture	10:00 AM-10:50 AM	F	CHASE, ANNIE	5601
  	Laboratory	12:00 PM-02:50 PM	W	YUEN, MAX	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-02: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-02: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20209
 TEXTS	PHYS-004A-03	Lecture	12:00 PM-01:50 PM	TTh	CASCARANO, FRANKLIN	4502
  	Lecture	12:00 PM-12:50 PM	F	CASCARANO, FRANKLIN	4502
  	Laboratory	03:00 PM-05:50 PM	T	CASCARANO, FRANKLIN	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-03: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-03: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20309
 TEXTS	PHYS-004A-04	Lecture	12:00 PM-12:50 PM	F	CASCARANO, FRANKLIN	4502
  	Lecture	12:00 PM-01:50 PM	TTh	CASCARANO, FRANKLIN	4502
  	Laboratory	03:00 PM-05:50 PM	Th	CASCARANO, FRANKLIN	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-04: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-04: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20960
 TEXTS	PHYS-004A-05	Lecture	05:30 PM-07:45 PM	TTh	FORS, ANITA	4601
  	 	Laboratory	08:00 PM-10:50 PM	T	FORS, ANITA	4715
-Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-05: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-004A-05: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 PHYS 4B :: GENERAL PHYSICS (CALCULUS)	6 Units
 Classical electricity and magnetism.
 5 hours lecture, 3 hours laboratory. (96 hours total per quarter.)
@@ -82,20 +82,20 @@ Corequisite: Completion of or concurrent enrollment in MATH 1C.
 TEXTS	PHYS-004B-01	Lecture	11:00 AM-11:50 AM	F	MARASCO, DAVID	4502
  	Lecture	10:00 AM-11:50 AM	TTh	MARASCO, DAVID	4502
  	Laboratory	12:00 PM-02:50 PM	T	MARASCO, DAVID	4718
-Class runs from 09/25/2017 - 12/15/2017. PHYS-004B-01: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-004B-01: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20310
 TEXTS	PHYS-004B-02	Lecture	10:00 AM-11:50 AM	TTh	MARASCO, DAVID	4502
  	Lecture	11:00 AM-11:50 AM	F	MARASCO, DAVID	4502
  	Laboratory	12:00 PM-02:50 PM	Th	MARASCO, DAVID	4718
-Class runs from 09/25/2017 - 12/15/2017. PHYS-004B-02: Additional costs for online materials or content in place of or in addition to a textbook may be required.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-004B-02: Additional costs for online materials or content in place of or in addition to a textbook may be required.
 20872
 TEXTS	PHYS-004B-03	Lecture	05:30 PM-07:45 PM	MW	CASCARANO, FRANKLIN	4502
  	 	Laboratory	05:30 PM-08:20 PM	T	YUEN, MAX	4718
-Class runs from 09/25/2017 - 12/15/2017.
+old.Class runs from 09/25/2017 - 12/15/2017.
 21338
 TEXTS	PHYS-004B-04	Lecture	05:30 PM-07:45 PM	MW	CASCARANO, FRANKLIN	4502
  	 	Laboratory	08:00 PM-10:50 PM	W	YUEN, MAX	4718
-Class runs from 09/25/2017 - 12/15/2017.
+old.Class runs from 09/25/2017 - 12/15/2017.
 PHYS 4C :: GENERAL PHYSICS (CALCULUS)	6 Units
 Thermodynamics; mechanical, acoustical, and electromagnetic waves; optics.
 5 hours lecture, 3 hours laboratory. (96 hours total per quarter.)
@@ -104,38 +104,38 @@ Prerequisites: MATH 1C and PHYS 4B.
 TEXTS	PHYS-004C-02	Lecture	10:00 AM-11:50 AM	MW	WANG, XIUJUAN	4813
  	Lecture	10:00 AM-10:50 AM	F	WANG, XIUJUAN	4813
  	Laboratory	12:00 PM-02:50 PM	M	WANG, XIUJUAN	4716
-Class runs from 09/25/2017 - 12/15/2017.
+old.Class runs from 09/25/2017 - 12/15/2017.
 PHYS 6 :: INTRODUCTORY PHYSICS	5 Units
 Lectures, demonstrations, and problems in mechanics, electricity and magnetism.
 5 hours lecture. (60 hours total per quarter.)
 Prerequisite: Satisfactory score on the mathematics placement test or MATH 48C.
 20805
 TEXTS	• PHYS-006.-01W	Lecture	TBA	TBA	WANG, XIUJUAN	ONLINE
-Class runs from 09/25/2017 - 12/15/2017.
+old.Class runs from 09/25/2017 - 12/15/2017.
 PHYS 70R :: INDEPENDENT STUDY IN PHYSICS	1 Unit
 Provides an opportunity for the student to expand their studies in Physics beyond the classroom by completing a project or an assignment arranged by agreement between the student and instructor. The student is required to contract with the instructor to determine the scope of assignment and the unit value assigned for successful completion. Students may take a maximum of 6 units of Independent Study per department.
 3 hours laboratory per week. (36 hours total per quarter.)
 20944
 TEXTS	PHYS-070R-01	Lecture	TBA	TBA	CASCARANO, FRANKLIN	TBA
-Class runs from 09/25/2017 - 12/15/2017. PHYS-070R-01: Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
+old.Class runs from 09/25/2017 - 12/15/2017. PHYS-070R-01: Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
 PHYS 71R :: INDEPENDENT STUDY IN PHYSICS	2 Units
 Provides an opportunity for the student to expand their studies in Physics beyond the classroom by completing a project or an assignment arranged by agreement between the student and instructor. The student is required to contract with the instructor to determine the scope of assignment and the unit value assigned for successful completion. Students may take a maximum of 6 units of Independent Study per department.
 6 hours laboratory per week. (72 hours total per quarter.)
 20949
 TEXTS	PHYS-071R-01	Lecture	TBA	TBA	STAFF, M	TBA
-Class runs from 09/25/2017 - 12/15/2017. Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
+old.Class runs from 09/25/2017 - 12/15/2017. Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
 PHYS 72R :: INDEPENDENT STUDY IN PHYSICS	3 Units
 Provides an opportunity for the student to expand their studies in Physics beyond the classroom by completing a project or an assignment arranged by agreement between the student and instructor. The student is required to contract with the instructor to determine the scope of assignment and the unit value assigned for successful completion. Students may take a maximum of 6 units of Independent Study per department.
 9 hours laboratory per week. (108 hours total per quarter.)
 20950
 TEXTS	PHYS-072R-01	Lecture	TBA	TBA	STAFF, M	TBA
-Class runs from 09/25/2017 - 12/15/2017. Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
+old.Class runs from 09/25/2017 - 12/15/2017. Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
 PHYS 73R :: INDEPENDENT STUDY IN PHYSICS	4 Units
 Provides an opportunity for the student to expand their studies in Physics beyond the classroom by completing a project or an assignment arranged by agreement between the student and instructor. The student is required to contract with the instructor to determine the scope of assignment and the unit value assigned for successful completion. Students may take a maximum of 6 units of Independent Study per department.
 12 hours laboratory per week. (144 hours total per quarter.)
 20951
 TEXTS	PHYS-073R-01	Lecture	TBA	TBA	STAFF, M	TBA
-Class runs from 09/25/2017 - 12/15/2017. Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
+old.Class runs from 09/25/2017 - 12/15/2017. Students need to complete an independent study contract with an instructor during the first two weeks of the quarter to enroll. Please discuss with interested faculty members about potential projects. Contact the PSME Division Office for more information at chenruyu@foothill.edu (Ruyu Chen, Administrative Assistant) or 650-949-7259.
 New Search
 APPLY for Admission
 DEGREES & CERTIFICATES

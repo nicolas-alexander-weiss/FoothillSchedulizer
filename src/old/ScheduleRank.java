@@ -1,3 +1,5 @@
+package old;
+
 import java.util.ArrayList;
 
 public class ScheduleRank {
@@ -17,20 +19,20 @@ public class ScheduleRank {
 
 
     private void rankingSchedules() {
-        // get Time Ranking for each possible Schedule
+        // get Time Ranking for each possible old.Schedule
             // through timeRank()
 
-        // get Professor Ranking for each possible Schedule
+        // get old.Professor Ranking for each possible old.Schedule
             // through professorRank()
 
         // Prompt user for preference between Teacher or schedule
 
-        // Declare int rankPoints to each possible Schedule
+        // Declare int rankPoints to each possible old.Schedule
 
-        // for each individual possible Schedule
-            // if (Teacher > Schedule) {
+        // for each individual possible old.Schedule
+            // if (Teacher > old.Schedule) {
                 // int rankPoints = professorRank - timeRank
-            // else if (Schedule > Teacher) {
+            // else if (old.Schedule > Teacher) {
                 // int rankPoints = sum(professor.numberofratings) * timeRank - professorRank
             // else
                 // int rankPoints = professorRank + sqrt(timeRank * sum(professor.numberofratings)
@@ -51,7 +53,7 @@ public class ScheduleRank {
 
         // create new array [6][24*12]
 
-        // c = multiply time preference with Possible Schedule's array
+        // c = multiply time preference with Possible old.Schedule's array
             // through each corresponding index
             // ie a[k][j] * b[k][j}
 

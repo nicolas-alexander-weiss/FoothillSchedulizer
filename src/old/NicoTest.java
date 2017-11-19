@@ -1,3 +1,5 @@
+package old;
+
 public class NicoTest {
     public static void main(String[] args){
 
@@ -11,7 +13,7 @@ public class NicoTest {
 
         Schedule[] schedules = scheduleChecker.getPossibleSchedules();
 
-        //System.out.println("TimeRating: " + ScheduleRank.timeRating(schedules[0],840,1500));
+        //System.out.println("TimeRating: " + old.ScheduleRank.timeRating(schedules[0],840,1500));
 
         Schedule[] possibleSchedules = scheduleChecker.getPossibleSchedules();
 

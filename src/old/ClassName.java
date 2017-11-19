@@ -1,3 +1,5 @@
+package old;
+
 public class ClassName {
     private String name;
     private String department;

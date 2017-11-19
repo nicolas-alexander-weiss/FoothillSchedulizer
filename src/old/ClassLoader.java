@@ -1,5 +1,6 @@
+package old;
+
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class ClassLoader {
 
     /**
      * Checks if the class the user entered exists
-     * @param className ClassName Object, containing department and name string
+     * @param className old.ClassName Object, containing department and name string
      * @return class file found
      */
     public static boolean classExists(ClassName className){
@@ -24,7 +25,7 @@ public class ClassLoader {
      * load Classes
      * @param classNames
      * @param flag  1 -> load without checking | else: only Load classes that exists
-     * @return Class[m][n(m)] | m = numb of different Classes | n(m) = number of different CRNs for this class
+     * @return old.Class[m][n(m)] | m = numb of different Classes | n(m) = number of different CRNs for this class
      */
     public static Class[][] loadClasses(ClassName[] classNames, int flag){
         ArrayList<Class[]> classes = new ArrayList<>();

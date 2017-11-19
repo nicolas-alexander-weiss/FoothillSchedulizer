@@ -1,3 +1,5 @@
+package old;
+
 public class Professor {
     private int difficulty, numRatings;
     private double ratingsAverage;

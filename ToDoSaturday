@@ -7,11 +7,11 @@
     2.1. Get All Classes by Department
         2.1.0. Copy and Paste all department website content for Winter 2018
         2.1.1. Save them in Files, one line per CRN, per department
-    2.2. Save Classes by ClassName
+    2.2. Save Classes by old.ClassName
     2.3. Make Classes Accessible
             | User only loads classes for which he wants to take
             | Validate by looking whether File Exists
-            --> return Class[][]
+            --> return old.Class[][]
 
 3. Display Schedules:
     3.0. Ordering Schedules (See 1.)

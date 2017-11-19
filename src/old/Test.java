@@ -1,3 +1,5 @@
+package old;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -270,7 +272,7 @@ public class Test
             System.out.println(temp);
 
             System.out.println("CRN: " + crn);
-            System.out.println("Class Name: " + className);
+            System.out.println("old.Class Name: " + className);
 
             for (int mCounter = 0; mCounter < myClassTimes.size(); mCounter++) {
                 System.out.println(myClassTimes.get(mCounter));
