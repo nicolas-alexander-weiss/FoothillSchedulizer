@@ -11,4 +11,15 @@ public class Department {
         this.classes = classes;
     }
 
+    public String toJSON(){
+        String json = "{\"name\":\""+name+"\",[";
+        for(Class c : classes){
+            json += c.toJSON() + ",";
+        }
+        json = json.substring(0,json.length()-1);
+        json += "]}";
+
+        return json;
+    }
+
 }

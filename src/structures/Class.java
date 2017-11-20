@@ -51,8 +51,9 @@ public class Class {
                 "\"wlRem\":\""+wlRem+"\",";
         json += "classtimes:[";
         for(ClassTime c : classTimes){
-            json += c.toJSON();
+            json += c.toJSON() + ",";
         }
+        json = json.substring(0, json.length()-1);
         json += "]}";
 
         return json;
