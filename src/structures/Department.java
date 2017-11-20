@@ -12,7 +12,7 @@ public class Department {
     }
 
     public String toJSON(){
-        String json = "{\"name\":\""+name+"\",[";
+        String json = "{\"name\":\""+name+"\",\"classes\":[";
         for(Class c : classes){
             json += c.toJSON() + ",";
         }

@@ -1,24 +1,21 @@
 package structures;
 
 public class ClassTime {
-    private String time;
+    private int timestamp;
     private String instructor;
-    private String date;
     private String location;
     private String attribute;
 
-    public ClassTime(String timeString,  String instructor, String date, String location, String attribute){
-        this.time = timeString;
+    public ClassTime(int timestamp,  String instructor, String location, String attribute){
+        this.timestamp = timestamp;
         this.instructor = instructor;
-        this.date = date;
         this.location = location;
         this.attribute = attribute;
     }
 
     public String toJSON(){
-        return "{\"time\":"+time+"," +
+        return "{\"timestamp\":"+timestamp+"," +
                 "\"instructor\":\""+instructor+"\"," +
-                "\"date\":\""+date+"\"," +
                 "\"location\":\""+location+"\"," +
                 "\"attribute\":\""+attribute+"\"}";
     }

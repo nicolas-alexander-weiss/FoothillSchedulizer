@@ -42,11 +42,11 @@ public class Class {
     }
 
     public String toJSON(){
-        String json = "{\"select\":"+select+"," +
+        String json = "{\"select\":\""+select+"\"," +
                 "\"crn\":\""+crn+"\"," +
                 "\"subj\":\""+subj+"\"," +
                 "\"crse\":\""+crse+"\"," +
-                "\"sec\":\""+sec+"\"" +
+                "\"sec\":\""+sec+"\"," +
                 "\"cmp\":\""+cmp+"\"," +
                 "\"cred\":\""+cred+"\"," +
                 "\"title\":\""+title+"\"," +
@@ -56,7 +56,7 @@ public class Class {
                 "\"wlcap\":\""+wlCap+"\"," +
                 "\"wlAct\":\""+wlAct+"\"," +
                 "\"wlRem\":\""+wlRem+"\",";
-        json += "classtimes:[";
+        json += "\"classtimes\":[";
         for(ClassTime c : classTimes){
             json += c.toJSON() + ",";
         }

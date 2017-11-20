@@ -1,11 +1,13 @@
 package parsing;
 
+import jdk.nashorn.internal.parser.JSONParser;
 import structures.Department;
 import structures.Class;
 import structures.ClassTime;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -107,7 +109,27 @@ public class ParseMyPortal {
             departments.add(new Department(departmentName, classes));
         }
 
-        System.out.println("stop");
+
+
+        //System.out.println(departmentsToJSON(departments));
+
+        String JSON = departmentsToJSON(departments);
+
+        FileWriter fileWriter = new FileWriter("resources/fh2018winter/fh2018winter.json", false);
+
+        fileWriter.append(JSON).flush();
+
+        System.out.println("end");
+    }
+
+    private static String departmentsToJSON(ArrayList<Department> departments) {
+        StringBuilder stringBuilder = new StringBuilder("{\"departments\":[");
+        for(Department department:departments){
+            stringBuilder.append(department.toJSON() + ",");
+        }
+        stringBuilder.replace(stringBuilder.length() - 1, stringBuilder.length(), "");
+        stringBuilder.append("]}");
+        return stringBuilder.toString();
     }
 
     private static ClassTime[] getClassTimes(String days, String time,String instructor, String date, String location, String attribute) {
@@ -116,7 +138,12 @@ public class ParseMyPortal {
 
         int[] timestamps = getTimeStamps(time, daysArray);
 
-        return new ClassTime[0];
+        ClassTime[] classTimes = new ClassTime[timestamps.length];
+        for(int i = 0; i < classTimes.length; i++){
+            classTimes[i] = new ClassTime(timestamps[i], instructor, location, attribute);
+        }
+
+        return classTimes;
     }
 
     private static int[] getTimeStamps(String time, String[] days) {
@@ -199,7 +226,13 @@ public class ParseMyPortal {
 
         strings.add(s.substring(lastIndex, s.length()));
 
-        return (String[]) strings.toArray();
+        String[] stringsArray = new String[strings.size()];
+
+        for(int i = 0; i < strings.size(); i++){
+            stringsArray[i] = strings.get(i);
+        }
+
+        return stringsArray;
     }
 
     private static String[] mpFileToDepartmentStrings(File input) throws FileNotFoundException {
