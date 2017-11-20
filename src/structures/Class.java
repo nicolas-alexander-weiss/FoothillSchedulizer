@@ -33,4 +33,28 @@ public class Class {
         this.classTimes.add(classTime);
         return true;
     }
+
+    public String toJSON(){
+        String json = "{\"select\":"+select+"," +
+                "\"crn\":\""+crn+"\"," +
+                "\"subj\":\""+subj+"\"," +
+                "\"crse\":\""+crse+"\"," +
+                "\"sec\":\""+sec+"\"" +
+                "\"cmp\":\""+cmp+"\"," +
+                "\"cred\":\""+cred+"\"," +
+                "\"title\":\""+title+"\"," +
+                "\"cap\":\""+cap+"\"," +
+                "\"act\":\""+act+"\"," +
+                "\"rem\":\""+rem+"\"," +
+                "\"wlcap\":\""+wlCap+"\"," +
+                "\"wlAct\":\""+wlAct+"\"," +
+                "\"wlRem\":\""+wlRem+"\",";
+        json += "classtimes:[";
+        for(ClassTime c : classTimes){
+            json += c.toJSON();
+        }
+        json += "]}";
+
+        return json;
+    }
 }
