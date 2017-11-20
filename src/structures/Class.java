@@ -34,6 +34,13 @@ public class Class {
         return true;
     }
 
+    public boolean addClassTimes(ClassTime[] classTimes){
+        for(ClassTime classTime : classTimes){
+            addClassTime(classTime);
+        }
+        return true;
+    }
+
     public String toJSON(){
         String json = "{\"select\":"+select+"," +
                 "\"crn\":\""+crn+"\"," +

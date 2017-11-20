@@ -57,7 +57,8 @@ public class ParseMyPortal {
                     classStringArray[13],
                     classStringArray[14],
                     classStringArray[15]);
-            tempClass.addClassTime(new ClassTime(
+
+            tempClass.addClassTimes(getClassTimes(
                     classStringArray[8],
                     classStringArray[9],
                     classStringArray[16],
@@ -68,7 +69,7 @@ public class ParseMyPortal {
                 classStringArray = classStringArrays.get(i);
 
                 if(classStringArray[0].charAt(0) == ParseMyPortal.WHITE_SPACE_CHARACTER){
-                    tempClass.addClassTime(new ClassTime(
+                    tempClass.addClassTimes(getClassTimes(
                             classStringArray[8],
                             classStringArray[9],
                             classStringArray[16],
@@ -92,7 +93,7 @@ public class ParseMyPortal {
                             classStringArray[13],
                             classStringArray[14],
                             classStringArray[15]);
-                    tempClass.addClassTime(new ClassTime(
+                    tempClass.addClassTimes(getClassTimes(
                             classStringArray[8],
                             classStringArray[9],
                             classStringArray[16],
@@ -101,11 +102,104 @@ public class ParseMyPortal {
                             classStringArray[19]));
                 }
             }
+
             classes.add(tempClass);
             departments.add(new Department(departmentName, classes));
         }
 
         System.out.println("stop");
+    }
+
+    private static ClassTime[] getClassTimes(String days, String time,String instructor, String date, String location, String attribute) {
+
+        String[] daysArray = seperateCamelCase(days);
+
+        int[] timestamps = getTimeStamps(time, daysArray);
+
+        return new ClassTime[0];
+    }
+
+    private static int[] getTimeStamps(String time, String[] days) {
+        int[] timestamps = new int[days.length];
+        for(int i = 0; i < timestamps.length; i++){
+            timestamps[i] = getTimeStamp(time,days[i]);
+        }
+        return timestamps;
+    }
+
+    private static int getTimeStamp(String timeInterval, String day) {
+        return ((int)Math.pow(10,8))*dayToInt(day) + timeIntervalToInt(timeInterval);
+    }
+
+    private static int timeIntervalToInt(String timeInterval) {
+        String[] times = timeInterval.split("-");
+        //06:00 pm-08:50 pm"
+
+        if(times.length != 2){
+            return -1;
+        }else{
+            String[] t0 = times[0].split(":");
+            String[] t1 = times[1].split(":");
+
+            int timeBegin =
+                    Integer.parseInt(t0[0]) * (int)Math.pow(10,2)
+                    + Integer.parseInt(t0[1].substring(0,2));
+            int timeEnd =
+                    Integer.parseInt(t1[0]) * (int)Math.pow(10,2)
+                            + Integer.parseInt(t1[1].substring(0,2));
+            return timeBegin * (int)Math.pow(10,4) + timeEnd;
+        }
+
+    }
+
+    /**
+     *
+     * @param day M,T,W,Th/R,F,S,U
+     * @return day as integer
+     */
+    private static int dayToInt(String day) {
+        switch (day){
+            case "M":
+                return 0;
+            case "T":
+                return 1;
+            case "W":
+                return 2;
+            case "Th":
+                return 3;
+            case "R":
+                return 3;
+            case "F":
+                return 4;
+            case "S":
+                return 5;
+            case "U":
+                return 6;
+            default:
+                return 0;
+        }
+    }
+
+    private static String[] seperateCamelCase(String s) {
+        ArrayList<String> strings = new ArrayList<>();
+
+        int counter = 0;
+        int lastIndex = 0;
+
+        for(int i = 0; i < s.length(); i++){
+            char c = s.charAt(i);
+            if(c >= 65 && c <= 90){
+                if(counter > 0){
+                    strings.add(s.substring(lastIndex, i));
+                    lastIndex = i;
+                }
+                counter++;
+            }
+        }
+
+        strings.add(s.substring(lastIndex, s.length()));
+
+        return (String[]) strings.toArray();
     }
 
     private static String[] mpFileToDepartmentStrings(File input) throws FileNotFoundException {
